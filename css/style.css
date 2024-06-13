@@ -886,20 +886,38 @@ ul.location_icon li a {
      100% { transform: scale(1); }
  }
 
+.contribuir-1 {
+     font-size: 18px;
+     background-color: transparent;
+     border: #000000 solid 2px;
+     color: #1a1a1a;
+     padding: 8px 0px;
+     width: 75%;
+     max-width: 150px;
+     text-align: center;
+     display: inline-block;
+     animation: agrandar 3s infinite;
+     transition: ease-in all 0.5s;
+     font-weight: 500;
+     border-radius: 35px;
+     margin-top: 20px;
+     color: #000000; /* Change this to the desired text color */
+}
+
 .contribuir {
      font-size: 17px;
      background-color: transparent;
-     border: #000000 solid 2px;
+     border: #000000 solid 1px;
      color: #1a1a1a;
      padding: 8px 0px;
      width: 75%;
      max-width: 200px;
      text-align: center;
      display: inline-block;
-     animation: agrandar 3s infinite;
+     animation: agrandar 6s infinite;
      transition: ease-in all 0.5s;
-     font-weight: 500;
-     border-radius: 40px;
+     font-weight: 400;
+     border-radius: 20px;
      margin-top: 15px;
 }
 .question {
